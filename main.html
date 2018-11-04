@@ -4,9 +4,13 @@
   <title>Visualizations</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 <body>
 
@@ -15,8 +19,8 @@
     <div class="navbar-header">
       <a class="navbar-brand" href="#">Latitude</a>
     </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="main.html">Home</a></li>
+    <!-- <ul class="nav navbar-nav">-->
+            <ul class="nav navbar-nav navbar-right">
       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots <span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="cloud.html">Cloudiness</a></li>
@@ -31,19 +35,23 @@
   </div>
 </nav>
 
-<!--           <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a> -->
+<header>
+<h1>Summary: Latitude vs. X</h1>
+</header>
 
-<!-- Visualization Page 1-->
+<div class = "row">
+<div class= "column side">
+<img src="Wind Speed vs Lat.png" width="200" height="100" alt="Windiness">
+<p>Blah blah blah. Something profound. Something funny. People are rediculous. Those people are on a date. I won't run it for them, since that's mean. I have an interview tomorrow. Blah blah blah.</p>
+</div>
 
-<!-- Visualization Page 2-->
-
-<!-- Visualization Page 3-->
-
-<!-- Visualization Page 4-->
-
-<!-- Comparisons Page -->
-
-<!-- Data Page-->
-
+<div class="column middle">
+<h1>Visualizations</h1>
+<img src="Cloudiness vs Lat.png" width="200" height="100" alt="Cloudiness">
+<img src="Humidity vs Lat.png" width="200" height="100" alt="Humidity">
+<img src="Wind Speed vs Lat.png" width="200" height="100" alt="Windiness">
+<img src="Temperature vs Lat.png" width="200" height="100" alt="Temperature">
+</div>
+</div>
 </body>
 </html>
