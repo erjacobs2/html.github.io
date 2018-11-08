@@ -16,6 +16,8 @@ h1 {
     color: rgb(21, 83, 119);
   }
 
+
+  
 /* Create three unequal columns that floats next to each other */
 .column {
     float: left;
@@ -25,11 +27,22 @@ h1 {
 /* Left and right column */
 .column.side {
     width: 50%;
+    word-wrap: normal;
+    padding: 10px
+}
+
+.column.side img {
+    float: left;
+    padding: 10px
 }
 
 /* Middle column */
 .column.middle {
     width: 50%;
+}
+
+.column.middle img {
+    padding: 10px;
 }
 
 /* Clear floats after the columns */
